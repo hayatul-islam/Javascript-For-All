@@ -69,3 +69,23 @@ console.log('    adfdfd      '.trim())
 // string split
 console.log(c.split(' '))
 
+// string length
+var str = 'Some String'
+console.log(str.charAt(7))
+console.log(str.charAt(15)) //empty string
+console.log(typeof str.charAt(16))
+
+var length = 0
+while(true){
+    if(str.charAt(length) == ''){
+        break
+    }else{
+        length++
+    }
+}
+console.log(length)
+
+console.log(str.length)
+console.log('afkdfj;aldsf'.length)
+
+// ******End******
