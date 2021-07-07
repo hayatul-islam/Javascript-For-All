@@ -1,4 +1,3 @@
-
 var str = 'something' // string literal
 var str = String('Something') // string constructor
 
@@ -22,7 +21,6 @@ console.log(str)
 // Backspace - \b 
 // Form Feed - \f
 
-
 // String Comparison
 
 // Lexicographic
@@ -30,11 +28,8 @@ var a = 'aaaZ'
 var b = 'aaaz'
 
 console.log(a < b)
-
 console.log('z' > 'Z')
-
 console.log('001' == 1)
-
 
 // String Concat
 var a = 'I am'
