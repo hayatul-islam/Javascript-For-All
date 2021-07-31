@@ -36,3 +36,14 @@ console.log(point.x + point.z)
 console.log(point['x'])
 console.log(point['x'] + point['y'])
 
+// value update 
+point.x = 45
+console.log(point)
+
+// value undefined 
+point.x = undefined
+console.log(point)
+
+// data remove 
+delete point.x // delete operator 
+console.log(point)
