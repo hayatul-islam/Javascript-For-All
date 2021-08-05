@@ -8,9 +8,16 @@ function abc() {
 }
 
 abc()
+// newAbc()
+
+var newAbc = function () {
+    console.log('I am new Function')
+}
+newAbc()
 
 // Creational Phase
 // abc = ref
+// newAbc = undefined
 
 // Executional Phase 
 // abc()
