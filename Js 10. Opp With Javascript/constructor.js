@@ -22,3 +22,7 @@ var Rectangle = function (width, height) {
 
 var rect = new Rectangle(12,4)
 rect.draw()
+
+
+var str = new String('str')
+console.log('My str ' + str)
