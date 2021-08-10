@@ -47,3 +47,4 @@ var another = {
 
 console.log(another.print)
 another.print()
+
